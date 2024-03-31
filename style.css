@@ -1,0 +1,59 @@
+*{
+    background-color: burlywood;
+
+    
+}
+#container{
+    height: 70vh;
+    width: 70vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    
+    
+}
+#boxes{
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    margin: 3px;
+    border-radius: 8px;
+    background-color:white ;
+    border: none;
+    font-size: 3rem;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.reset{
+    background-color: #8e3b46;
+    color: #e1dd8f;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    height: 40px;
+    width: 100px;
+}
+.heading{
+    color:#8e3b46;
+    font-weight: 1600;
+}
+.winner{
+    color: #477890;
+}
+.hide{
+    display: none;
+}
